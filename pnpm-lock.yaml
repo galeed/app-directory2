@@ -117,12 +117,15 @@ packages:
 
   '@dinero.js/calculator-number@2.0.0-alpha.10':
     resolution: {integrity: sha512-EdKG0yykukigfdq+TsxZ9r0Wrg5flYAncKWSfr2snWDXurFsg8JE0oazVraCBA3Vb5LN4vGuFEpTFTH+dIrRCg==}
+    deprecated: This package has been consolidated into dinero.js. See https://v2.dinerojs.com/getting-started/upgrade-guide
 
   '@dinero.js/core@2.0.0-alpha.10':
     resolution: {integrity: sha512-vjeGXQbNvDXlXK54zaWDydEXyFAvLDj6LCfwO4CTZJIqn3+PaXakaEd5S0AXC6hluPatxnQa5J63x3WQ/Imrjw==}
+    deprecated: This package has been consolidated into dinero.js. See https://v2.dinerojs.com/getting-started/upgrade-guide
 
   '@dinero.js/currencies@2.0.0-alpha.10':
     resolution: {integrity: sha512-IDKaAh0YcJh700uLCrvWtIRCl5sItc3S2rk4IfVJBbms3j+NBDOlVFJnwru+UrMh7VpqU9GlZRsHcHf0NxYE9A==}
+    deprecated: This package has been consolidated into dinero.js. See https://v2.dinerojs.com/getting-started/upgrade-guide
 
   '@emnapi/runtime@1.11.3':
     resolution: {integrity: sha512-Xz4Tpyki7XyrpbUK1jR1AhdAdaXyhhY4lZ3neLodmhpuWfy2PAQN5B46sAiU4liOXGLkHypn/qU+jvfWSCYYLA==}
@@ -927,8 +930,8 @@ packages:
     resolution: {integrity: sha512-kh8ARjh8rMN7Du2igDRO9QJnqCb2xYTJxyQYK7vJJS4TvLLmsbyhiKpSW+t+y26gyOyMd0riphX0GeWKU3ky5g==}
     engines: {node: '>=12.13'}
 
-  nanoid@3.3.11:
-    resolution: {integrity: sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==}
+  nanoid@3.3.19:
+    resolution: {integrity: sha512-Y2tUNy4ouw6tq5oDSKeQYGOyhkUBhNOcGV/02KC+6kd9eDGqdZd++mjMiIDilrBYvjEnCYvVtsuHCuP+okSfug==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
@@ -1095,8 +1098,8 @@ packages:
       '@types/node':
         optional: true
 
-  source-map-js@1.2.1:
-    resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
+  source-map-js@1.2.2:
+    resolution: {integrity: sha512-KGj/8Y43x35aZVDtt+J4mK1hoLGHULMYfSkODJNQjNDC3oW1PqPoxMwo0pLUsWM/UEGzON/NxeHywEfNXNP3Vw==}
     engines: {node: '>=0.10.0'}
 
   source-map@0.7.4:
@@ -2128,7 +2131,7 @@ snapshots:
 
   ms@3.0.0-canary.1: {}
 
-  nanoid@3.3.11: {}
+  nanoid@3.3.19: {}
 
   next@16.4.0-canary.12(@types/node@22.13.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4):
     dependencies:
@@ -2176,9 +2179,9 @@ snapshots:
 
   postcss@8.5.14:
     dependencies:
-      nanoid: 3.3.11
+      nanoid: 3.3.19
       picocolors: 1.1.1
-      source-map-js: 1.2.1
+      source-map-js: 1.2.2
 
   prettier-plugin-tailwindcss@0.6.12(prettier@3.5.3):
     dependencies:
@@ -2312,7 +2315,7 @@ snapshots:
       '@types/node': 22.13.1
     optional: true
 
-  source-map-js@1.2.1: {}
+  source-map-js@1.2.2: {}
 
   source-map@0.7.4: {}
 
